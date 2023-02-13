@@ -1,0 +1,128 @@
+@font-face {
+  font-family: "P22";
+  src: url(fontP22PlattenNeuW01Regular.ttf) format('truetype');
+}
+
+
+body {
+  background-color: #34495E;
+}
+
+h1 {
+  font-family: "P22";
+  font-size: 20px;
+  color:rgb(255, 255, 255);
+}
+
+
+#body-container {
+  display: flex;
+  height: 60vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: auto;
+  border: none;
+  }
+  
+td {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 72px;
+    font-weight: bold;
+    border-bottom: 1px solid #999;
+    border-right: 1px solid #999;
+  }
+  
+  
+  td:nth-of-type(3) {
+    border-right-color: transparent;
+    border-top-color: transparent;
+  }
+  
+  tr:nth-of-type(3) td {
+    border-bottom-color: transparent;
+  }
+  
+.x {
+    color: #43A7C1;
+    font-size: 60px;
+    font-family: "P22";
+  }
+  
+.o {
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    font-family: "P22";
+  }
+  
+#general-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 60%;
+  }
+
+  
+#x-score-container, #o-score-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+  font-family: "P22";
+  font-size: 54px;
+  }
+
+#o-score-title {
+  font-size: 28px;
+}
+
+#x-score-title {
+  font-size: 28px;
+  color: #43A7C1;
+}
+
+.hidden {
+    display: none;
+  }
+  
+#result-reset {
+  justify-content: center;
+  text-align: center;
+}
+
+#home-container {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#board {
+text-align: center;
+}
+
+#resultado {
+  font-family: Calibri;
+  font-size: 44px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+#reset-button, #home-container {
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+img {
+  width: 30px;
+  height: 30px;
+}
